@@ -21,8 +21,8 @@ public class DataSourceConfig {
     @Value("${spring.datasource.url}")
     private String dbUrl;
 
-	@Bean
-	public DataSource dataSource() throws IOException {
+    @Bean
+    public DataSource dataSource() throws IOException {
         // 1. Extract the native binary out of the JAR to the local machine file system
         File nativeExtension = extractExtensionToDisk();
 

@@ -4,7 +4,7 @@ Create REST API in `com.kurniadhi.mcp.basic.api` package.
 
 Use `JdbcTemplate` (Spring Data JDBC repos excluded — SQLite has no dialect). Don't add `@DataJdbcTest` or repository interfaces.
 
-## Endpoints
+## Endpoints — DONE
 
 | Method | Path | Action |
 |--------|------|--------|

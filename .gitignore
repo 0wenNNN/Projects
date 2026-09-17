@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### macOS / Windows transfer junk ###
+.DS_Store
+__MACOSX/
+*:Zone.Identifier

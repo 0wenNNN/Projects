@@ -27,10 +27,6 @@ spring:
     exclude:
       - org.springframework.boot.data.jdbc.autoconfigure.DataJdbcRepositoriesAutoConfiguration
 
-app:
-  openai:
-    api-key: ${OPENAI_API_KEY:}
-
   sql:
     init:
-      mode: always
+      mode: always # Automatically runs src/main/resources/schema.sql on startup
